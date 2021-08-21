@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
 function Skills() {
     return (
         <div>
         <h1 id='skills-move'  style={{color: '#605d74', padding: '20px', fontSize:'40px'}}>Skills</h1>
-        
+        <hr id='hr1'/>
         <div id='skills-container'>
 
             <div>

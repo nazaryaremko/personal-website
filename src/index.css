@@ -23,6 +23,7 @@ code {
 
 #home-btn:hover, #skills-btn:hover, #projects-btn:hover, #contact-btn:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 #header-container {
@@ -30,6 +31,7 @@ code {
   grid-template-columns: repeat(9, 1fr);
   position:fixed;
   width: 100%;
+  z-index:1;
 }
 
 #home-btn {
@@ -59,7 +61,7 @@ code {
   grid-column: 4;
   grid-row: 2;
   margin-top: -50px;
-  width: 350px;
+  width: 450px;
   font-size: 60px;
   letter-spacing: 0.02em;
 }
@@ -75,8 +77,8 @@ code {
 #img-me {
   grid-column: 7;
   grid-row: 2;
-  height: 250px;
-  width: 350px;
+  position: relative;
+  right: 50px;
 }
 
 #skills-container {
@@ -117,25 +119,25 @@ svg {
 
 .right-arrow {
 position: relative;
- grid-column: 8;
- grid-row: 2;
  color: #605d74;
- left: -20px;
+ right: 25%;
+ top: 85px;
+ width: 40px;
 }
 
 .left-arrow {
   position: relative;
-  grid-column: 4;
-  grid-row: 2;
   color: #605d74;
-  right: -60px;
+  left: -665%;
+  top: 85px;
+  width: 40px;
  }
 
  #project-tab {
   grid-column: 6;
   border: solid #605d74;
-  height: 250px;
-  width: 450px;
+  height: 275px;
+  width: 495px;
 }
 
 #live-git-container {
@@ -144,14 +146,18 @@ position: relative;
 }
 
 #live {
-  grid-column: 4;
+  position: absolute;
+  left: 40%;
+  top: 2150px;
   margin-top: -170px;
-  height: 25px;
+  height: 40px;
 }
 #github {
-  grid-column: 5;
+  position: absolute;
+  right: 40%;
+  top: 2150px;
   margin-top: -170px;
-  height: 25px;
+  height: 40px;
 
 }
 
@@ -168,3 +174,17 @@ button {
   padding: 20px;
   text-align: center;
 }
+
+#hr0, #hr1, #hr2 {
+  position: relative;
+  border: 1px solid #605d74;
+  left: 18px;
+  bottom: 45px;
+}
+
+#hr3 {
+  position: relative;
+  border: 1px solid #E6C0E9;
+  bottom: 25px;
+}
+

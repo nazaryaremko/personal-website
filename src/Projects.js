@@ -36,6 +36,7 @@ function Projects() {
     return (
         <div>
         <h2 id='project-move' style={{color: '#605d74', padding: '20px', fontSize:'40px'}} > Projects </h2>
+        <hr id='hr2'/>
         <div style = {{display: 'flex', justifyContent: 'center', color: '#f9f6fa', fontSize: '25px'}}> {names[project]} </div>
         <br/>
         <div id='project-container'>
